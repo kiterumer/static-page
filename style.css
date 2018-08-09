@@ -1,0 +1,309 @@
+*{
+font-family: Microsoft YaHei UI;
+font-size: 14px;
+margin: 0;
+padding: 0;
+border:none;
+
+}
+a{
+text-decoration: none;
+}
+ul{
+list-style: none;
+}
+
+/*头部样式*/
+header{
+position: relative;
+height: 75px;
+}
+
+header>.container{
+width: 1400px;
+height: 75px;
+margin: 0 auto;
+background: #2e2e2e;
+}
+
+header>.container>a{
+display: block;
+float: left;
+margin: 20px 50px;
+}
+
+header>.container>nav{
+float: right;
+margin:0 30px;
+}
+
+.container>nav>a{
+font-size: 14px;
+line-height: 75px;
+display: block;
+float: left;
+padding:0 30px;
+text-align: center;
+color: #fff;
+}
+
+.container>nav>a:hover{
+background:#E84545;
+border-radius: 8px;
+}
+
+/*banner样式*/
+.banner{
+background-image: url(img/banner.jpg) ;
+height: 670px;
+width: 1400px;
+text-align:center;
+margin: 0 auto;
+}
+
+.banner>.content{
+width: 1000px;
+height: 300px;
+text-align:center;
+margin: 0 auto;
+padding-top: 200px;
+
+}
+.banner .content>h1{
+font-weight: normal;
+font-size:56px;
+color:#fff;
+word-spacing: 20px;
+}
+
+.banner .content>p{
+font-size: 14px;
+line-height: 22px;
+margin-top: 30px;
+}
+
+
+/*portfolio样式*/
+.portf{
+width: 1400px;
+margin:0 auto;
+}
+
+.portf>.title{
+width: 600px;
+text-align:center;
+margin: 0 auto;
+padding-top: 100px;
+}
+
+.portf>.title h1{
+font-size: 48px;
+color: #f46208;
+letter-spacing: 8px;
+margin-bottom: 40px;
+}
+
+.portf>.title p{
+line-height: 22px;
+}	
+
+.portf nav{
+width: 100%;
+margin: auto;
+text-align:center;
+}
+	
+.portf nav a{
+display: inline-block;  
+border: 1px solid #f46208;
+padding:6px;
+margin:40px 10px;
+color:#f46208;
+border-radius: 3px;
+}
+
+.portf nav a:hover{
+background-color: #f46208;
+color: #fff;
+}
+
+.portf img{
+/*display: block;*/
+margin:0 auto;
+}
+
+
+/*stats样式*/
+.stats{
+width:1400px;
+margin:0 auto;
+text-align:center;
+}
+
+.stats h1{
+font-size: 48px;
+color: #f46208;
+margin-top:100px;
+margin-bottom:30px;
+letter-spacing: 8px;
+}
+
+.stats p{
+width:800px;
+margin:50px auto;
+line-height: 22px;
+}
+
+.figure-container{
+width:1000px;
+margin:50px auto;
+}
+
+.description{
+width:200px;
+height:200px;
+display: inline-block;
+}
+
+.figure-container h4{
+font-size: 30px;
+letter-spacing: 6px;
+font-weight: normal;
+color: #f46208;
+}
+
+.figure-container h3{
+padding:15px;
+font-size: 20px;
+}
+
+
+/*team样式*/
+.team{
+width: 1400px;
+background-color: #2e2e2e;
+margin:0 auto;
+text-align:center;
+}
+
+.team .title{
+width:800px;
+margin:0 auto;
+text-align:center;
+}
+
+.team h1{
+padding-top: 60px;
+padding-bottom: 50px;
+font-size: 48px;
+color: #f46208;
+letter-spacing:8px;
+}
+
+.team p {
+color:#fff;
+margin-bottom: 30px;
+line-height: 22px;
+}
+
+.team li{
+display: inline-block;
+width: 180px;
+margin:30px 50px;
+}
+
+.team li h4{
+color: #fff;
+}
+
+
+/*contact样式*/
+.contact{
+width:1400px;
+margin:0 auto;
+text-align:center;
+}
+
+.contact .title{
+width:800px;
+margin:30px auto;
+}
+
+.contact h1{
+font-size: 48px;
+color: #f46208;
+margin-bottom:30px;
+margin-top: 40px;
+letter-spacing: 8px;
+}
+
+.contact p{
+line-height: 22px;
+}
+
+.form{
+width:800px;
+margin:0 auto;
+}
+
+input{
+border:1px solid lightgrey;
+border-radius: 3px;
+}
+.name,.email{
+padding:16px;
+width: 320px;
+margin:20px ;
+}
+
+.textarea{
+display: block;
+width:720px;
+height:300px;
+margin:0 auto;
+padding:16px;
+}
+
+button{
+padding:20px 30px;
+background-color: #f46208;
+color: #fff;
+border-radius: 5px;
+margin-top:30px;
+margin-bottom: 50px;
+font-size:16px;
+transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+cursor: pointer;  
+transform: scale(1.1);
+background-color: #f83600;
+}
+
+/*footer样式*/
+footer{
+width:1400px;
+height:80px;
+text-align:center;
+margin:0 auto;
+background-color: #2e2e2e;
+color:#fff;
+}
+
+footer p{
+line-height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
